@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+header h3{
+    color: green;
+    margin-top: 0.8rem;
+}
+form{
+    margin-left: 5rem;
+    font-size: 1.1rem;
+}
+.date, .amount{
+    display: inline-block;
+}
+.expense-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expense-btn button{
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.expense-btn button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.name, .amount, .date{
+    padding: 10px;
+}
+input{
+    padding: 8px;
+    margin: 2px;
+    font-size: 1.3rem;
+}
+.name input{
+    width: 70%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 4.5rem 5rem;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.deletebutton{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.deletebutton:hover{
+    color: red;
+}
