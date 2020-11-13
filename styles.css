@@ -40,6 +40,9 @@ form{
     background-color: green;
     cursor: pointer;
     font-size: 1.3rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 2px 4px 7px grey;
 }
 .expense-btn button:hover{
     opacity: 0.8;
@@ -66,7 +69,7 @@ table {
 td{
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 10px;
 }
 
 tr:nth-child(even) {
@@ -80,4 +83,16 @@ tr:nth-child(even) {
 }
 .deletebutton:hover{
     color: red;
+}
+@media(max-width : 700px){
+    header{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    form{
+        margin-left: 2rem;
+    }
+    input{
+        font-size: 1rem;
+    }
 }
